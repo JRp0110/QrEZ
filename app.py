@@ -23,28 +23,15 @@ with col2:
     verde = st.checkbox("Verde", key = "green")
 
 if red:
-    azul = False
-    morado = False
-    verde = False 
     color_file = "red"
 
-
 elif azul:
-    red = False
-    morado = False
-    verde = False
     color_file = "blue"
 
 elif morado:
-    red = False
-    azul = False
-    verde = False
     color_file = "purple"
 
 elif verde:
-    red = False
-    azul = False
-    morado = False
     color_file = "green"
 else:
     color_file = "Black"
@@ -82,4 +69,5 @@ with col2:
 
     else:  
         estatus.info("Ingrese el qr")
+
 
