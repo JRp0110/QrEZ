@@ -53,7 +53,6 @@ with col2:
             
             with col3:
                 if st.button("Refrescar"):
-                    link = "" 
                     st.session_state.clear()
                     st.rerun()
 
@@ -64,6 +63,7 @@ with col2:
 
     else:  
         estatus.info("Ingrese el qr")
+
 
 
 
