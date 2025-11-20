@@ -57,12 +57,9 @@ with col2:
                     st.rerun()
 
 
-        else:
-            st.download_button("Descargar QR")
-
-
     else:  
         estatus.info("Ingrese el qr")
+
 
 
 
